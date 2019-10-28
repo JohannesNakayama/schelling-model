@@ -11,7 +11,7 @@ PyPlot.subplot(1, 2, 1)
 PyPlot.imshow(world)
 
 # execute simulation
-new_world = simulate(world, 1000, 0.5)
+new_world = simulate(world, 1000, 0.9)
 
 # show state after simulation
 PyPlot.subplot(1, 2, 2)
