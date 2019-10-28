@@ -95,12 +95,6 @@ end
 function simulate(world, max_ticks, threshold)
     for t in 1:max_ticks
         world = tick(world, threshold)
-        # # stop condition
-        # if tmp == world
-        #     break
-        # else
-        #     world = tmp
-        # end
     end
     return world
 end
