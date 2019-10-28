@@ -25,3 +25,7 @@ The prior and the resulted state of the world are visualized with the PyPlot mod
 using Pkg
 Pkg.add("PyPlot")
 ```
+
+## Reference
+
+Schelling, T. C. (1971). Dynamic models of segregation. Journal of mathematical sociology, 1(2), 143-186.
