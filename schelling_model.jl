@@ -1,7 +1,7 @@
 # initialize world
 function initialize_world(dim, pop_density)
     world = rand(dim, dim)
-    # distribute agents probabilitically
+    # distribute agents probabilistically
     for n in 1:dim, m in 1:dim
         if world[n, m] < pop_density
             if rand() < 0.5
